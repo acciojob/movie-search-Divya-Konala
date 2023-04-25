@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Axios from "axios";
 import Movie from "./Movie";
 const key = process.env.REACT_APP_OMDB_API_KEY;
-const key1 = "12e0139b";
+const key1 = "123456789";
 const Search = () => {
   const [inputValue, setInputValue] = useState("");
   const [data, setData] = useState([]);
